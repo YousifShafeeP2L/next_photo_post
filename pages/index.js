@@ -7,7 +7,7 @@ export default function Home(props) {
       <Head>
         <title>Home</title>
       </Head>
-      <Photos images={props.images} status={"A"}></Photos>
+      <Photos images={props.images} status={"ACCEPTED"}></Photos>
     </>
   )
 }
